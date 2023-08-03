@@ -17,12 +17,14 @@
 
 body {
   margin: auto;
+  align-items: center;
+  justify-content: center;
   display: flex;
-  place-items: center;
   width: min(300px, 500px);
   min-height: 100vh;
   text-align: center;
 }
+
 h1 {
   font-size: 1rem;
   margin-bottom: 4rem;

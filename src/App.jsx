@@ -16,10 +16,10 @@ function App() {
   }, []);
 
   return (
-    <>
+    <div>
     <h1>Advice Generator</h1>
       <Advice advice={advice} getAdvice={getAdvice} />
-    </>
+    </div>
   );
 }
 
